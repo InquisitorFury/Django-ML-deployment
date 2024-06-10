@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} Iris Application {% endblock %}
+
+{% block style %}  <style> </style>{% endblock %}
+
+{% block content %}
+    <h1>Iris Application</h1>
+    <hr>
+    <form action="">
+        <type type="number" name="sepal_length" required>Sepal Length:</type><br>
+        <type type="number" name="Sepal_width" required>Sepal Width:</type><br>
+        <type type="number" name="petal_length" required>Petal Length:</type><br>
+        <type type="number" name="petal_width" required>Petal Width:</type><br>
+        <input type="submit">
+
+    </form>
+
+{% endblock %}
